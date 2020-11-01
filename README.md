@@ -27,7 +27,7 @@ New:
 In virtual console mode all characters are put/got from the command line. After printing a null character to command line, all printed text is treated as command.
 
 Built-in commands:
-- `fread x` -- puts contents of file x to the cmd line
+- `fread x` -- puts contents of file x to the cmd line; a terminating null character is put at the end
 - `fwrite x "d"` -- puts d into file x; the double quotes are required and can not be escaped
 - `color f b` -- changes console color; f is foreground color; b is background color. Available colors:
     - black
