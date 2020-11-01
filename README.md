@@ -8,6 +8,12 @@ Links:
 Some optimization ideas:
 - https://habr.com/ru/post/321630/
 
+## Usage
+
+Build: `make`
+
+Run: `./bin/brainstorm.exe path/to/script.txt`
+
 # Syntax
 **+ - . , < > [ ]**  do the same things as in Brainfuck.
 Any non-command symbols are ignored.
